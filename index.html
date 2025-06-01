@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topografie Quiz</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="javascript/javascript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Topografie Quiz</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img id="kaart" src="" alt="Kaart van Nederland" />
+        </section>
+
+        <section>
+            <div id="introTekst">
+                <img id="kaart" src="images/Provinces_of_the_Netherlands.svg" alt="Kaart van Nederland" />
+                <h2>Welkom bij de Topo Quiz van Nederland!</h2>
+            </div>
+
+            <button id="startKnop">Start Spel</button>
+
+            <div id="vraagContainer">
+                <p id="vraagNummer">Vraag 1 van 12</p>
+
+                <div id="scoreInfo">
+                    <p>Score: <span id="score">0</span></p>
+                    <p id="levensContainer">❤️❤️❤️</p>
+                </div>
+
+                <h3>Welke hoofdstad hoort bij deze provincie?</h3>
+
+                <p id="timer">Tijd: 10</p>
+                <div id="timerBarContainer">
+                    <div id="timerBar"></div>
+                </div>
+
+                <div id="keuzeKnoppen"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="popup">
+        <img id="popupAfbeelding" src="" alt="">
+        <p id="popupText"></p>
+    </div>
+</body>
+
+</html>
