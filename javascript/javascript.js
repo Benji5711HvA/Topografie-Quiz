@@ -70,6 +70,8 @@ function nieuweVraag() {
   if (levens <= 0 || beschikbareVragen.length === 0) return eindeSpel();
 
   vraagNummer++;
+
+  // Chatgpt prompt: Ik wil steeds een willekeurige vraag uit een lijst kiezen, maar die vraag mag niet meer terugkomen. Hoe doe ik dat?
   const juisteVraag = beschikbareVragen.splice(Math.floor(Math.random() * beschikbareVragen.length), 1)[0];
 
   kaartElement.src = 'images/' + juisteVraag.image;
