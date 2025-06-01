@@ -42,8 +42,8 @@ const popupText = document.querySelector('#popupText');
 const popupAfbeelding = document.querySelector("#popupAfbeelding")
 
 // Geluidseffecten instellen
-const tadaGeluid = new Audio("../audio/tada.mp3")
-const failGeluid = new Audio("../audio/fail.mp3")
+const tadaGeluid = new Audio("audio/tada.mp3")
+const failGeluid = new Audio("audio/fail.mp3")
 
 // Event listener: start het spel als er op de startknop wordt geklikt
 startKnop.addEventListener('click', startSpel);
